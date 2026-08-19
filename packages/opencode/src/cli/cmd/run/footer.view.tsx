@@ -671,6 +671,7 @@ export function RunFooterView(props: RunFooterViewProps) {
                           <RunPromptBody
                             theme={theme}
                             background={() => runTheme().background}
+                            cursorStyle={props.tuiConfig.cursor}
                             placeholder={composer.placeholder}
                             onSubmit={composer.onSubmit}
                             onKeyDown={composer.onKeyDown}
